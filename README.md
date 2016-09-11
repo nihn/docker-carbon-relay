@@ -1,4 +1,4 @@
-# docker-carbon-cache #
+# docker-carbon-relay #
 Minimal image based on `python:2.7.12-alpine` with carbon-relay daemon running.
 
 ## Base usage ##
