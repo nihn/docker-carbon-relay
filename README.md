@@ -7,7 +7,8 @@ docker run -p 2013:2013 -p 2014:2014 mateuszm/carbon-relay
 ```
 
 ## Configuration ##
-You can configure `DESTINATIONS` via environment variable with same names.
+You can configure `DESTINATIONS` and `USE_WHITELIST` via environment variables 
+with same names.
 If you need some not standard configuration copy your own carbon-cache config:
 
 ```
