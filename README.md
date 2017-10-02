@@ -7,9 +7,9 @@ docker run -p 2013:2013 -p 2014:2014 mateuszm/carbon-relay
 ```
 
 ## Configuration ##
-You can configure `DESTINATIONS` and `USE_WHITELIST` via environment variables 
-with same names.
-If you need some not standard configuration copy your own carbon-cache config:
+You can configure all settings via environment variables prefixed with
+"CARBON_OPT_".
+You can also just create your own image and copy configuration into it:
 
 ```
 COPY carbon.conf $GRAPHITE_CONF_DIR/carbon.conf
